@@ -26,7 +26,7 @@ public class Grade {
         driver.manage().window().maximize();
 
         driver.findElement(By.name("UserName")).sendKeys("ATR/8398/09");
-        driver.findElement(By.name("Password")).sendKeys("3892");
+        driver.findElement(By.name("Password")).sendKeys("password");
         driver.findElement(By.xpath("//*[@id=\"home\"]/div[2]/div[2]/form/div[4]/div/button")).click();
 
         driver.get("https://portal.aait.edu.et/Grade/GradeReport");
